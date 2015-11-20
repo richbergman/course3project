@@ -9,7 +9,7 @@ The script reads:
 	4.  The training column names (y-train.txt)
 	5.  The subject numbers (subject_train.txt)
 
-	Steps 3-5 are repeated with the *_test.txt files.
+Steps 3-5 are repeated with the *_test.txt files.
 
  These files are assembled into a singe datafram "dat" by:
 	1.  Inserting subject and activity vectors as columns 1,2 in the training dataset using cbind.
